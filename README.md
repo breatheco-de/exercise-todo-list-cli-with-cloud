@@ -17,6 +17,10 @@ We are going to be using [BreatheCode Todo's API](https://assets.breatheco.de/ap
 
 ## 💻 Installation
 
+- You can either open this project on gitpod : gitpod.io#<https://github.com/breatheco-de/exercise-todo-list-cli-with-cloud.git>
+
+- or you can clone it following this instructions:
+
 1. Clone this repository: 
 
 ```sh
