@@ -15,16 +15,16 @@ We are going to be using [BreatheCode Todo's API](https://assets.breatheco.de/ap
 - Initilize the todo list: `[POST] /todos/user/<username>`  
 - Update your todo list: `[PUT] /todos/user/<username>`  
 
-## 💻 Installation
+## 🌱  How to start this project
 
-- You can either open this project on gitpod : gitpod.io#<https://github.com/breatheco-de/exercise-todo-list-cli-with-cloud.git>
+Do not clone this repository.
 
-- or you can clone it following this instructions:
+1. The first step to start coding is cloning the [python boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) on your local computer or opening it using gitpod.
 
-1. Clone this repository: 
+a) If using Gitpod you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello).
+b) If working locally type the following command from your command line: `git clone https://github.com/4GeeksAcademy/flask-rest-hello`.
 
-```sh
-$ git clone https://github.com/breatheco-de/todo-list-cli-with-cloud
+💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 ```
 
 2. Install the dependecy packages by typing: 
