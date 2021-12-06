@@ -12,7 +12,7 @@ You will practice:
 We are going to be using [BreatheCode Todo's API](https://assets.breatheco.de/apis/fake/todos/) to upload and download the TODO's, please refer to the HTTP and REST lessons as a quick background research for the project.
 
 - Get todo's by calling: `[GET] /todos/user/<username>`   
-- Initilize the todo list: `[POST] /todos/user/<username>`  
+- Initialize the todo list: `[POST] /todos/user/<username>`  
 - Update your todo list: `[PUT] /todos/user/<username>`  
 
 ## 🌱  How to start this project
@@ -27,7 +27,7 @@ b) If working locally type the following command from your command line: `git cl
 💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 ```
 
-2. Install the dependecy packages by typing: 
+2. Install the dependency packages by typing: 
 
 ```sh
 $ pipenv install --python 3
