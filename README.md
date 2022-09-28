@@ -52,7 +52,7 @@ $ python src/test.py
 
 ## 📝 Instructions
 
-- You app needs to work from the the command line [like this](https://github.com/breatheco-de/todo-list-cli-with-cloud/blob/master/preview.gif).
+- Your app needs to work from the the command line [like this](https://github.com/breatheco-de/todo-list-cli-with-cloud/blob/master/preview.gif).
 - The user should be able to add a new tasks.
 - The user can add as many tasks as they want.
 - The user can delete tasks by specifying the task position in the list.
