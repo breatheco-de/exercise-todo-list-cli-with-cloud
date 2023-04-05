@@ -1,62 +1,65 @@
-# Todo List CLI in Sync with the Cloud!
+<!--hide-->
+# ¡Lista de tareas pendientes CLI sincronizada con la nube!
+<!--endhide-->
 
 <p align="center"><img src="https://github.com/breatheco-de/todo-list-cli-with-cloud/blob/master/preview.gif" width="500" /></p>
-Today you will be building a TODO list using API's to sync it with the cloud.
 
-You will practice:
-1. Python lists/arrays
-2. Python Dictionaries
-3. Using the requests package for API communication
-4. HTTP Protocol
+Hoy construirás una lista TODO usando API's para sincronizarla con la nube.
 
-We are going to be using [BreatheCode Todo's API](https://assets.breatheco.de/apis/fake/todos/) to upload and download the TODO's, please refer to the HTTP and REST lessons as a quick background research for the project.
+Practicarás:
+1. Listas / arrays de Python.
+2. Diccionarios de Python.
+3. Usar el paquete requests para la comunicación de API.
+4. Protocolo HTTP.
 
-- Get todo's by calling: `[GET] /todos/user/<username>`   
-- Initilize the todo list: `[POST] /todos/user/<username>`  
-- Update your todo list: `[PUT] /todos/user/<username>`  
+Vamos a usar la [API de TODO de BreatheCode](https://assets.breatheco.de/apis/fake/todos/) para cargar y descargar los TODO, por favor consulta las lecciones de HTTP y REST como una investigación de fondo rápida para el proyecto.
 
-## 🌱  How to start this project
+- Obtener TODO llamando: `[GET] /todos/user/<username>`
+- Inicializar la lista TODO: `[POST] /todos/user/<username>`
+- Actualizar tu lista TODO: `[PUT] /todos/user/<username>`
 
-Do not clone this repository.
+## 🌱 Cómo comenzar este proyecto
 
-1. The first step to start coding is cloning the [python boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) on your local computer or opening it using gitpod.
+No clones este repositorio.
 
-a) If using Gitpod you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello).
-b) If working locally type the following command from your command line: `git clone https://github.com/4GeeksAcademy/flask-rest-hello`.
+1. El primer paso para comenzar a codificar es clonar el [boilerplate de python](https://github.com/4GeeksAcademy/flask-rest-hello) en tu computadora local o abrirlo usando gitpod.
 
-💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
-```
+a) Si usas Gitpod, puedes clonar el boilerplate haciendo [clic aquí](https://github.com/4GeeksAcademy/flask-rest-hello).
+b) Si trabajas localmente, escriba el siguiente comando desde tu línea de comandos: `git clone https://github.com/4GeeksAcademy/flask-rest-hello`.
 
-2. Install the dependecy packages by typing: 
+💡 Importante: recuerda crear un nuevo repositorio, actualizar el remoto (`git remote set-url origin <your new url>`) y cargar el código a tu nuevo repositorio `add`, `commit` y `push`.
+
+2. Instala los paquetes de dependencia escribiendo:
 
 ```sh
 $ pipenv install --python 3
 ```
 
-3. Get inside your virtual environment by typing: 
+3. Entra a tu entorno virtual escribiendo:
 
 ```sh
 $ pipenv shell
 ```
 
-4. You can run the project by typing: 
+4. Puedes ejecutar el proyecto escribiendo:
 
 ```sh
 $ python src/app.py
 ```
-5. You can also run the tests for the project: 
+
+5. También puedes ejecutar las pruebas para el proyecto:
 
 ```sh
 $ python src/test.py
 ```
 
-## 📝 Instructions
+## 📝 Instrucciones
 
-- You app needs to work from the the command line [like this](https://github.com/breatheco-de/todo-list-cli-with-cloud/blob/master/preview.gif).
-- The user should be able to add a new tasks.
-- The user can add as many tasks as they want.
-- The user can delete tasks by specifying the task position in the list.
-- The app must be able to save to todo's to the cloud using [BreatheCode Todo's API](https://assets.breatheco.de/apis/fake/todos/)
-- The app must be able to download (load) the todo's from the [BreatheCode Todo's API](https://assets.breatheco.de/apis/fake/todos/)
+- Tu aplicación debe funcionar desde la línea de comandos [así](https://github.com/breatheco-de/todo-list-cli-with-cloud/blob/master/preview.gif).
+- El usuario debe poder agregar nuevas tareas.
+- El usuario puede agregar tantas tareas como desee.
+- El usuario puede eliminar tareas especificando la posición de la tarea en la lista.
+- La aplicación debe poder guardar los TODO en la nube usando la [API de TODO de BreatheCode](https://assets.breatheco.de/apis/fake/todos/)
+- La aplicación debe poder descargar (cargar) los TODO desde la [API de TODO de BreatheCode](https://assets.breatheco.de/apis/fake/todos/)
 
 
