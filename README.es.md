@@ -12,7 +12,7 @@ Practicarás:
 3. Usar el paquete requests para la comunicación de API.
 4. Protocolo HTTP.
 
-Vamos a usar la [API de TODO de BreatheCode](https://assets.breatheco.de/apis/fake/todos/) para cargar y descargar los TODO, por favor consulta las lecciones de HTTP y REST como una investigación de fondo rápida para el proyecto.
+Vamos a usar la [API de TODO de BreatheCode](https://playground.4geeks.com/apis/fake/todos/) para cargar y descargar los TODO, por favor consulta las lecciones de HTTP y REST como una investigación de fondo rápida para el proyecto.
 
 - Obtener TODO llamando: `[GET] /todos/user/<username>`
 - Inicializar la lista TODO: `[POST] /todos/user/<username>`
@@ -59,7 +59,7 @@ $ python src/test.py
 - El usuario debe poder agregar nuevas tareas.
 - El usuario puede agregar tantas tareas como desee.
 - El usuario puede eliminar tareas especificando la posición de la tarea en la lista.
-- La aplicación debe poder guardar los TODO en la nube usando la [API de TODO de BreatheCode](https://assets.breatheco.de/apis/fake/todos/)
-- La aplicación debe poder descargar (cargar) los TODO desde la [API de TODO de BreatheCode](https://assets.breatheco.de/apis/fake/todos/)
+- La aplicación debe poder guardar los TODO en la nube usando la [API de TODO de BreatheCode](https://playground.4geeks.com/apis/fake/todos/)
+- La aplicación debe poder descargar (cargar) los TODO desde la [API de TODO de BreatheCode](https://playground.4geeks.com/apis/fake/todos/)
 
 
