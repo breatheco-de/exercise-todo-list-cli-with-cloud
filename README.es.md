@@ -22,34 +22,39 @@ Vamos a usar la [API de TODO de BreatheCode](https://playground.4geeks.com/apis/
   
 ## 🌱 Cómo comenzar este proyecto
 
-No clones este repositorio.
+No clones este repositorio porque usaremos una plantilla diferente.  
 
-1. El primer paso para comenzar a codificar es clonar el [boilerplate de python](https://github.com/4GeeksAcademy/flask-rest-hello) en tu computadora local o abrirlo usando gitpod.
+Recomendamos abrir la el `Python boilerplate`, utilizando una herramienta de aprovisionamiento como [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternativamente, puedes [clonar el repositorio de GitHub](https://4geeks.com/how-to/github-clone-repository) en tu computadora local utilizando el comando `git clone`.  
 
-a) Si usas Gitpod, puedes clonar el boilerplate haciendo [clic aquí](https://github.com/4GeeksAcademy/flask-rest-hello).
-b) Si trabajas localmente, escriba el siguiente comando desde tu línea de comandos: `git clone https://github.com/4GeeksAcademy/flask-rest-hello`.
+Este es el repositorio que necesitas abrir o clonar:  
+
+```sh
+$ git clone https://github.com/4GeeksAcademy/flask-rest-hello
+```
 
 💡 Importante: recuerda crear un nuevo repositorio, actualizar el remoto (`git remote set-url origin <your new url>`) y cargar el código a tu nuevo repositorio `add`, `commit` y `push`.
 
-2. Instala los paquetes de dependencia escribiendo:
+### Pasos 
+
+1. Instala los paquetes de dependencia escribiendo:
 
 ```sh
 $ pipenv install --python 3
 ```
 
-3. Entra a tu entorno virtual escribiendo:
+2. Entra a tu entorno virtual escribiendo:
 
 ```sh
 $ pipenv shell
 ```
 
-4. Puedes ejecutar el proyecto escribiendo:
+3. Puedes ejecutar el proyecto escribiendo:
 
 ```sh
 $ python src/app.py
 ```
 
-5. También puedes ejecutar las pruebas para el proyecto:
+4. También puedes ejecutar las pruebas para el proyecto:
 
 ```sh
 $ python src/test.py
