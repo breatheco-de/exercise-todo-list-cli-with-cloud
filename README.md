@@ -18,40 +18,48 @@ We are going to be using [BreatheCode Todo's API](https://playground.4geeks.com/
 - Initilize the todo list: `[POST] /todos/user/<username>`  
 - Update your todo list: `[PUT] /todos/user/<username>`  
 
+<onlyfor saas="false" withBanner="false">
+  
 ## 🌱 How to start this project
 
-Do not clone this repository.
+Do not clone this repository because we are going to be using a different template.
 
-1. The first step to start coding is cloning the [python boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) on your local computer or opening it using gitpod.
+We recommend opening the `python boilerplate`, using a provisioning tool like [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternatively, you can [clone the GitHub repository](https://4geeks.com/how-to/github-clone-repository) on your local computer using the `git clone` command.
 
-a) If using Gitpod, you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello).
-b) If working locally, type the following command from your command line: `git clone https://github.com/4GeeksAcademy/flask-rest-hello`.
+This is the repository you need to open or clone:
 
-💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
+```sh
+$ git clone https://github.com/4GeeksAcademy/flask-rest-hello
 ```
 
-2. Install the dependent packages by typing: 
+💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
+
+### Pasos
+
+1. Install the dependent packages by typing: 
 
 ```sh
 $ pipenv install --python 3
 ```
 
-3. Get inside your virtual environment by typing: 
+2. Get inside your virtual environment by typing: 
 
 ```sh
 $ pipenv shell
 ```
 
-4. You can run the project by typing: 
+3. You can run the project by typing: 
 
 ```sh
 $ python src/app.py
 ```
-5. You can also run the tests for the project: 
+4. You can also run the tests for the project: 
 
 ```sh
 $ python src/test.py
 ```
+
+</onlyfor>
 
 ## 📝 Instructions
 
